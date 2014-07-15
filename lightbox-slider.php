@@ -1,7 +1,7 @@
 <?php
 /**
  * Plugin Name: Lightbox Slider
- * Version: 0.1
+ * Version: 0.2
  * Description: A Great Lightbox plugin to create and display various types of images galleries on WordPress blog.
  * Author: Weblizar
  * Author URI: http://www.weblizar.com
@@ -247,7 +247,7 @@ function WeblizarLightboxSliderShortCodeDetect() {
             /**
              * envira & isotope js
              */
-				wp_enqueue_script( 'envira-js', WEBLIZAR_LBS_PLUGIN_URL.'js/envira.js', array(), '1.5.26', true );
+				wp_enqueue_script( 'envira-js', WEBLIZAR_LBS_PLUGIN_URL.'js/lightbox.isotope.js', array(), '1.5.26', true );
 				wp_enqueue_script( 'isotope-js', WEBLIZAR_LBS_PLUGIN_URL.'js/gl_isotope.js', array(), '', true );
 
             break;
@@ -263,7 +263,7 @@ add_action('admin_menu' , 'LBS_SettingsPage');
 
 function LBS_SettingsPage() {
     add_submenu_page('edit.php?post_type=lightbox-slider', __('Settings', WEBLIZAR_LBS_TEXT_DOMAIN), __('Settings', WEBLIZAR_LBS_TEXT_DOMAIN), 'administrator', 'light-box-settings', 'lightbox_slider_settings_page_function');
-    //add_submenu_page('edit.php?post_type=lightbox-slider', 'Pro Features', 'Pro Features', 'administrator', 'get-image-gallery-pro-plugin', 'get_lightbox_slider_pro_page_function');
+    add_submenu_page('edit.php?post_type=lightbox-slider', 'Pro Features', 'Pro Features', 'administrator', 'get-lightbox-slider-pro-plugin', 'get_lightbox_slider_pro_page_function');
 }
 
 /**
@@ -279,12 +279,24 @@ function lightbox_slider_settings_page_function() {
  * Get Lightbox Slider Pro Plugin Page
  */
 function get_lightbox_slider_pro_page_function() {
-    //css
-    wp_enqueue_style('wl-lbs-font-awesome-4', WEBLIZAR_LBS_PLUGIN_URL.'css/font-awesome-4.0.3/css/font-awesome.min.css');
-    wp_enqueue_style('wl-lbs-pricing-table-css', WEBLIZAR_LBS_PLUGIN_URL.'css/pricing-table.css');
+    wp_enqueue_script('wl-lbs-lightbox2',WEBLIZAR_LBS_PLUGIN_URL.'js/pro-aid-slider/jquery.flexslider.min.js', array('jquery'));
+	wp_enqueue_script('wl-lbs-lightbox3',WEBLIZAR_LBS_PLUGIN_URL.'js/pro-aid-slider/jquery.bxslider.min.js', array('jquery'));
+	wp_enqueue_script('wl-lbs-lightbox4',WEBLIZAR_LBS_PLUGIN_URL.'js/pro-aid-slider/waypoints.min.js', array('jquery'));
+	wp_enqueue_script('wl-lbs-lightbox5',WEBLIZAR_LBS_PLUGIN_URL.'js/pro-aid-slider/script.js', array('jquery'));
+	wp_enqueue_script('wl-lbs-lightbox6',WEBLIZAR_LBS_PLUGIN_URL.'js/pro-aid-slider/scroll.js', array('jquery'));
+
+	
+	//css
+	 wp_enqueue_style('wl-lbs-boot-strap-responsive-min-2-3-css', WEBLIZAR_LBS_PLUGIN_URL.'css/bootstrap.css');
+	wp_enqueue_style('wl-lbs-flex', WEBLIZAR_LBS_PLUGIN_URL.'js/pro-aid-slider/flexslider.css');
+    
+	wp_enqueue_style('wl-lbs-font-awesome-4', WEBLIZAR_LBS_PLUGIN_URL.'css/font-awesome-4.0.3/css/font-awesome.min.css');
+    
+	wp_enqueue_style('wl-lbs-pricing-table-css', WEBLIZAR_LBS_PLUGIN_URL.'css/pricing-table.css');
     wp_enqueue_style('wl-lbs-pricing-table-responsive-css', WEBLIZAR_LBS_PLUGIN_URL.'css/pricing-table-responsive.css');
-    wp_enqueue_style('wl-lbs-boot-strap-responsive-min-2-3-css', WEBLIZAR_LBS_PLUGIN_URL.'css/bootstrap-responsive.min.2.3.css');
-    //require_once("get-lightbox-slider-pro.php");
+   
+    
+	require_once("get-lightbox-slider-pro.php");
 }
 
 

@@ -105,15 +105,15 @@
     </p>
 </form>
 
-<!--
+
 <div class="plan-name" style="margin-top:40px;">
 	<h2>Lightbox Slider Pro</h2>
 </div>
 <div class="purchase_btn_div" style="margin-top:20px;">
-  <a href="http://weblizar.com/plugins/" target="_new" class="button button-hero">View Demo</a>
-  <a href="http://weblizar.com/plugins/" target="_new" class="button button-primary button-hero">Upgrade To Pro</a>
+  <a href="http://weblizar.com/lightbox-slider-pro/" target="_new" class="button button-hero">View Demo</a>
+  <a href="http://weblizar.com/lightbox-slider-pro/" target="_new" class="button button-primary button-hero">Upgrade To Pro</a>
 </div>
--->
+
 
 <?php
 if(isset($_POST['wl_lbs_action'])) {

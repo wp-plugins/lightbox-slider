@@ -103,6 +103,10 @@ function light_box_slider_short_code() {
     .b-wrapper{
         font-family:<?php echo str_ireplace("+", " ", $LBS_Font_Style); ?>; // real name pass here
     }
+	.enigma_home_portfolio_caption h3{
+	font-family:<?php echo str_ireplace("+", " ", $LBS_Font_Style); ?>; // real name pass here
+    
+	}
     </style>
 
     <?php

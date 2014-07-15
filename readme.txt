@@ -4,7 +4,7 @@ Donate link: http://www.weblizar.com/
 Tags: responsive gallery, add album, add gallery, add pictures, album, gallery, gallery image, image, multiple pictures, photo, photo album, photo gallery, upload images, website gallery, albums, best gallery plugin, best portfolio plugin, flash, gallery album, gallery bank, gallery image, gallery plugin, grid gallery, image album, image slider, images, lightbox, responsive lightbox, lightbox images, responsive slider, responsive, lightbox gallery, slider, lightbox slider, image lightbox, photo lightbox, colorbox, photobox, popup, popup box, links, media, modal, photo albums, photo gallery, swipebox, pretty photo, Photo Slider, photos, picture, pictures, plugin, portfolio, portfolio gallery, portfolio wordpress plugin, Post, posts, responsive gallery, seo image, sidebar, slideshow, thumbnails, videos, website gallery, widget, wordpress gallery plugin, wordpress portfolio plugin, wp gallery, wordpress lightbox, wordpress slider, wp gallery plugin
 Requires at least: 3.3
 Tested up to: 3.9.1
-Stable tag: 0.1
+Stable tag: 0.2
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
@@ -103,6 +103,9 @@ Using **[LBS]** shortcode, you can publish lightbox slider image photo gallery i
 == Changelog ==
 
 For more information, see [Weblizar](http://wwww.weblizar.com/).
+
+= 0.2 =
+* remove minor bug
 
 = 0.1 =
 * New: Add New Gallery

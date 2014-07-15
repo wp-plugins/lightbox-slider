@@ -67,17 +67,19 @@ Using **[LBS]** shortcode, you can publish lightbox slider image photo gallery i
 
 **See All lightbox Demo. These 8 types of lightbox are availabe in pro version**
 
-*Nivo Box [Demo](http://demo.weblizar.com/lightbox-slider-pro-nivo/)
-*Photo Box [Demo](http://demo.weblizar.com/lightbox-slider-pro-photobox/)
-*Pretty Photo [Demo](http://demo.weblizar.com/lightbox-slider-pro-pretty-photo/)
-*Window Box [Demo](http://demo.weblizar.com/lightbox-slider-pro-windowbox/)
-*Smooth Box [Demo](http://demo.weblizar.com/lightbox-slider-pro-smoothbox/)
-*Swipe Box [Demo](http://demo.weblizar.com/lightbox-slider-pro-swipebox/)
-*Ion Box [Demo](http://demo.weblizar.com/lightbox-slider-pro-ionbox/)
-*Fancy Box [Demo](http://demo.weblizar.com/lightbox-slider-pro-fancybox/)
+* Nivo Box [Demo](http://demo.weblizar.com/lightbox-slider-pro-nivo/)
+* Photo Box [Demo](http://demo.weblizar.com/lightbox-slider-pro-photobox/)
+* Pretty Photo [Demo](http://demo.weblizar.com/lightbox-slider-pro-pretty-photo/)
+* Window Box [Demo](http://demo.weblizar.com/lightbox-slider-pro-windowbox/)
+* Smooth Box [Demo](http://demo.weblizar.com/lightbox-slider-pro-smoothbox/)
+* Swipe Box [Demo](http://demo.weblizar.com/lightbox-slider-pro-swipebox/)
+* Ion Box [Demo](http://demo.weblizar.com/lightbox-slider-pro-ionbox/)
+* Fancy Box [Demo](http://demo.weblizar.com/lightbox-slider-pro-fancybox/)
 
 **Lighbox Slier Pro:** [Admin Demo](http://demo.weblizar.com/lightbox-slider-pro-admin-demo/wp-admin/)
+
 **Username:**userdemo
+
 **Password:**userdemo
 
 **Upgrade To Pro:** [Lightbox Slider Pro](http://weblizar.com/lightbox-slider-pro/)

@@ -1,14 +1,14 @@
 === Lightbox Slider ===
 Contributors: weblizar
 Donate link: http://www.weblizar.com/
-Tags: lightbox, lightbox gallery, add album, add gallery, add pictures, album, gallery, gallery image, image, multiple pictures
+Tags: responsive gallery, add album, add gallery, add pictures, album, gallery, gallery image, image, multiple pictures, photo, photo album, photo gallery, upload images, website gallery, albums, best gallery plugin, best portfolio plugin, flash, gallery album, gallery bank, gallery image, gallery plugin, grid gallery, image album, image slider, images, lightbox, responsive lightbox, lightbox images, responsive slider, responsive, lightbox gallery, slider, lightbox slider, image lightbox, photo lightbox, colorbox, photobox, popup, popup box, links, media, modal, photo albums, photo gallery, swipebox, pretty photo, Photo Slider, photos, picture, pictures, plugin, portfolio, portfolio gallery, portfolio wordpress plugin, Post, posts, responsive gallery, seo image, sidebar, slideshow, thumbnails, videos, website gallery, widget, wordpress gallery plugin, wordpress portfolio plugin, wp gallery, wordpress lightbox, wordpress slider, wp gallery plugin
 Requires at least: 3.3
 Tested up to: 3.9.1
 Stable tag: 0.1
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
-Lightbox Slider Image Gallery Plugin
+Lightbox Slider plugin is allow you to add unlimited images to gallery with lightbox window. 
 
 == Description ==
 Lightbox Slider is based on bootstrap framework. Allow to add and create unlimited images galleries on your sites. Lightbox is provide fade animation, light box image preview and two gallery layout with various fonts. It's also provide isotope effect to adjust your image size according to screen resolution.
@@ -25,13 +25,65 @@ Using **[LBS]** shortcode, you can publish lightbox slider image photo gallery i
 * Two Types of Color Scheme
 * Integrated with Isotope Effect 
 * Two Different Font Awesome Icon
-* Bootstrap Model Light Box
+* Responsive Light Box window
 * All Major & Latest Browser Compatible - Google Chrome, Mozilla Firefox, Internet Explorer
 * All Major Device Compatible - iPhone, iPad, Tablets, PC 
 * Add Unlimited Images into Gallery
 * Multilingual Translation Ready
 
 **Free Plugin Demo:** [Lightbox Slider Free](http://demo.weblizar.com/lightbox-slider-free-plugin)
+
+**Upgrade To Pro:** [Lightbox Slider Pro](http://weblizar.com/lightbox-slider-pro/)
+
+
+**Responsive Photo Gallery Pro Features**
+
+* Responsive Gallery
+* Admin Gallery Dashboard
+* 8 Types of Animation Effect
+* 5 Types of Gallery design layout
+* Unlimited Colors Scheme with opacity Effects
+* 520 Goggle Font Styles integrated with gallery 
+* Integrated with Isotope Effect 
+* Choose Unlimited Font Awesome Icon
+* 8 Types Of light box integrated with gallery. 
+		
+   * Nivo Box
+   * Photo Box
+   * Pretty Photo
+   * Window Box
+   * Smooth Box
+   * Swipe Box
+   * Ion Box
+   * Fancy Box
+   
+* Gallery Categorized Display
+* Add Unlimited Images into Gallery
+* Each gallery associated with unique shortcode.
+* Retina Ready
+* Browser Compatible
+* Multilingual Translation Ready
+* And many more..
+
+** See All lightbox Demo. These 8 types of lightbox are availabe in pro version **
+
+Nivo Box [Demo](http://demo.weblizar.com/lightbox-slider-pro-nivo/)
+Photo Box [Demo](http://demo.weblizar.com/lightbox-slider-pro-photobox/)
+Pretty Photo [Demo](http://demo.weblizar.com/lightbox-slider-pro-pretty-photo/)
+Window Box [Demo](http://demo.weblizar.com/lightbox-slider-pro-windowbox/)
+Smooth Box [Demo](http://demo.weblizar.com/lightbox-slider-pro-smoothbox/)
+Swipe Box [Demo](http://demo.weblizar.com/lightbox-slider-pro-swipebox/)
+Ion Box [Demo](http://demo.weblizar.com/lightbox-slider-pro-ionbox/)
+Fancy Box [Demo](http://demo.weblizar.com/lightbox-slider-pro-fancybox/)
+
+**Lighbox Slier Pro:** [Admin Demo](http://demo.weblizar.com/lightbox-slider-pro-admin-demo/wp-admin/)
+**Username:**userdemo
+**Password:**userdemo
+
+**Upgrade To Pro:** [Lightbox Slider Pro](http://weblizar.com/lightbox-slider-pro/)
+
+
+
 
 == Installation ==
 

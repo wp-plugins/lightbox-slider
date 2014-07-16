@@ -9,7 +9,7 @@
         <h2 style="font-weight: bold;
 font-size: 36px;
 padding-top: 30px;
-padding-bottom: 30px;">lightbox Slider Pro Screenshot</h2>
+padding-bottom: 30px;">Lightbox Slider Pro Screenshots</h2>
     </div>
 	<!-- SLIDER-INTRO-->
 				<!--===============================================================-->
@@ -54,7 +54,7 @@ padding-bottom: 30px;">lightbox Slider Pro Screenshot</h2>
         <h2 style="font-weight: bold;
 font-size: 36px;
 padding-top: 10px;
-padding-bottom: 10px;">Responsive Photo Gallery Pro And Free Comparison Table</h2>
+padding-bottom: 10px;">Lightbox Slider Pro And Free Comparison Table</h2>
  </div>
 <div class="row-fluid pricing-table pricing-three-column" style="margin-top: 10px;">
 	<div class="col-md-4">

@@ -244,12 +244,6 @@ function WeblizarLightboxSliderShortCodeDetect() {
 				wp_enqueue_style('wl-lbs-font-awesome-4', WEBLIZAR_LBS_PLUGIN_URL.'css/font-awesome-4.0.3/css/font-awesome.min.css');
 				wp_enqueue_style('wl-lbs-lightbox', WEBLIZAR_LBS_PLUGIN_URL.'css/lightbox.css');
 
-            /**
-             * envira & isotope js
-             */
-				wp_enqueue_script( 'envira-js', WEBLIZAR_LBS_PLUGIN_URL.'js/lightbox.isotope.js', array(), '1.5.26', true );
-				wp_enqueue_script( 'isotope-js', WEBLIZAR_LBS_PLUGIN_URL.'js/gl_isotope.js', array(), '', true );
-
             break;
         } //end of if
     } //end of foreach

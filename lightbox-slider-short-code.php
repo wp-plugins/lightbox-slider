@@ -183,8 +183,7 @@ function light_box_slider_short_code() {
 				?>
 			</div>
 		<?php endwhile; ?>
-    </div>
-    <hr>
+   
     <?php wp_reset_query(); ?>
     <?php
 	return ob_get_clean();

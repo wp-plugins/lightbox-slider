@@ -94,7 +94,7 @@ padding:0px;
    display: block;
 position: absolute;
 top: 3.7%;
-left: 12.755%;
+left: 14.755%;
 width: 71.25%;
 height: 86.3%;
 overflow: hidden;
@@ -314,7 +314,7 @@ overflow: hidden;
 	-ms-transform: translateY(0px);
 	transform:translateY(0px);
 }
-@media (max-width:1500px) { 
+@media (max-width:1400px) { 
 
 .ipad-screen{
    display: block;

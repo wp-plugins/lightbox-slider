@@ -47,7 +47,7 @@ Using **[LBS]** shortcode, you can publish lightbox slider image photo gallery i
 * Integrated with Isotope Effect 
 * Choose Unlimited Font Awesome Icon
 * 8 Types Of light box integrated with gallery. 
-		
+
    * Nivo Box
    * Photo Box
    * Pretty Photo
@@ -56,7 +56,7 @@ Using **[LBS]** shortcode, you can publish lightbox slider image photo gallery i
    * Swipe Box
    * Ion Box
    * Fancy Box
-   
+
 * Gallery Categorized Display
 * Add Unlimited Images into Gallery
 * Each gallery associated with unique shortcode.
@@ -78,9 +78,9 @@ Using **[LBS]** shortcode, you can publish lightbox slider image photo gallery i
 
 **Lighbox Slier Pro:** [Admin Demo](http://demo.weblizar.com/lightbox-slider-pro-admin-demo/wp-admin/)
 
-**Username:**userdemo
+**Username:** userdemo
 
-**Password:**userdemo
+**Password:** userdemo
 
 **Upgrade To Pro:** [Lightbox Slider Pro](http://weblizar.com/lightbox-slider-pro/)
 

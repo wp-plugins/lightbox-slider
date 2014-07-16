@@ -15,7 +15,7 @@ padding-bottom: 30px;">Lightbox Slider Pro Screenshots</h2>
 				<!--===============================================================-->
 				<div class="col-sm-12 col-xs-12">
 					<div class="ipad-frame">
-						<img class="img-responsive img-center" src="http://weblizar.com/wp-content/themes/home-theme/images/browser-slider/moonbook_laptop-1331px.png" alt=""/>
+						<img class="img-responsive img-center" style="width:100%" src="http://weblizar.com/wp-content/themes/home-theme/images/browser-slider/moonbook_laptop-1331px.png" alt=""/>
 						<div class="ipad-screen ipad-slider flexslider">
 							<ul class="slides">
 								<li>
@@ -155,4 +155,8 @@ padding-bottom: 10px;">Lightbox Slider Pro And Free Comparison Table</h2>
     .row-fluid .span4 {
         width: 30.624% !important;
     }
+	
+	ul li img {
+		
+	}
 </style>

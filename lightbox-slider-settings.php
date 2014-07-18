@@ -105,15 +105,28 @@
     </p>
 </form>
 
-<!--
+
 <div class="plan-name" style="margin-top:40px;">
-	<h2>Lightbox Slider Pro</h2>
+	<h2 style="border-top: 5px solid #f9f9f9;
+padding-top: 20px;">Lightbox Slider Pro</h2>
 </div>
 <div class="purchase_btn_div" style="margin-top:20px;">
-  <a href="http://weblizar.com/plugins/" target="_new" class="button button-hero">View Demo</a>
-  <a href="http://weblizar.com/plugins/" target="_new" class="button button-primary button-hero">Upgrade To Pro</a>
-</div>
--->
+  <a  style= "margin-right:10px;" href="http://weblizar.com/lightbox-slider-pro/" target="_new" class="button button-hero">View Demo</a>
+	  <a style= "margin-right:10px;" href="http://weblizar.com/lightbox-slider-pro/" target="_new" class="button button-primary button-hero">Try Before Buy</a>
+	  <a style="background-color: #d9534f;
+border-color: #d43f3a;" href="http://weblizar.com/lightbox-slider-pro/" target="_new" class="button button-primary button-hero">Upgrade To Pro</a>
+	</div>
+	<a href="http://weblizar.com/lightbox-slider-pro/" target="_new"><img style="margin-top:20px;box-shadow: 0 0 12px 3px #b0b2ab;" src="<?php echo WEBLIZAR_LBS_PLUGIN_URL.'images/lightbox-images.jpg'; ?>" /></a>
+	
+	
+	
+	
+	
+	
+	
+	
+	
+
 
 <?php
 if(isset($_POST['wl_lbs_action'])) {

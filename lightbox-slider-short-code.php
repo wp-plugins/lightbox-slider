@@ -107,6 +107,13 @@ function light_box_slider_short_code() {
 	font-family:<?php echo str_ireplace("+", " ", $LBS_Font_Style); ?>; // real name pass here
     
 	}
+	img {
+	max-width:1600px !important;
+	}
+	.row {
+	margin-right: 0;
+	margin-left: 0;
+	}
     </style>
 
     <?php
@@ -122,65 +129,80 @@ function light_box_slider_short_code() {
 		<?php while ( $loop->have_posts() ) : $loop->the_post();?>
 			<!--get the post id-->
 			<?php $post_id = get_the_ID(); ?>
+			<div style="display: block; overflow:hidden; padding-bottom:20px;">
+				
+				<!-- lbs gallery title-->
+				<div style="font-weight: bolder; padding-bottom:20px; border-bottom:2px solid #cccccc; margin-bottom: 20px;">
+					<?php echo ucwords(get_the_title($post_id)); ?>
+				</div>
+				
+				<!--lbs gallery photos-->
+				<div>
+					<div class="row">
+					<?php
 
-			<div style="font-weight: bolder;padding-bottom:20px;border-bottom:2px solid #cccccc;margin-bottom: 20px ">
-				<?php echo ucwords(get_the_title($post_id)); ?>
-			</div>
-			<div class="gallery1">
-				<?php
+						/**
+						 * Get All Photos from Gallery Post Meta
+						 */
+						$lbs_all_photos_details = unserialize(get_post_meta( get_the_ID(), 'lbs_all_photos_details', true));
+						$TotalImages =  get_post_meta( get_the_ID(), 'lbs_total_images_count', true );
+						$i = 1;
 
-					/**
-					 * Get All Photos from Gallery Post Meta
-					 */
-					$lbs_all_photos_details = unserialize(get_post_meta( get_the_ID(), 'lbs_all_photos_details', true));
-					$TotalImages =  get_post_meta( get_the_ID(), 'lbs_total_images_count', true );
-					$i = 1;
-
-					foreach($lbs_all_photos_details as $lbs_single_photos_detail) {
-						$name = $lbs_single_photos_detail['lbs_image_label'];
-						$url = $lbs_single_photos_detail['lbs_image_url'];
+						foreach($lbs_all_photos_details as $lbs_single_photos_detail) {
+							$name = $lbs_single_photos_detail['lbs_image_label'];
+							$url = $lbs_single_photos_detail['lbs_image_url'];
 						?>
-						<div class="<?php echo $LBS_Gallery_Layout; ?> col-sm-6 wl-gallery" >
-							<div style="box-shadow: 0 0 6px rgba(0,0,0,.7);">
-								<div class="b-link-<?php echo $LBS_Hover_Animation; ?> b-animate-go">
+							
+							
+							<div class="<?php echo $LBS_Gallery_Layout; ?>  wl-gallery" >
+								<div style="box-shadow: 0 0 6px rgba(0,0,0,.7);">
+									<div class="b-link-<?php echo $LBS_Hover_Animation; ?> b-animate-go">
 
-									<img src="<?php echo $url; ?>" class="gall-img-responsive">
+										<img src="<?php echo $url; ?>" class="gall-img-responsive">
 
-									<div class="b-wrapper">
-										<p class="b-scale b-animate b-delay03">
-											<a href="<?php echo $url; ?>" data-lightbox="image" title="<?php echo ucwords($name); ?>" class="hover_thumb">
-												<i class="fa <?php echo $LBS_Image_View_Icon; ?> fa-4x"></i>
-											</a>
-										</p>
-									</div>
+										<div class="b-wrapper">
+											<p class="b-scale b-animate b-delay03">
+												<a href="<?php echo $url; ?>" data-lightbox="image" title="<?php echo ucwords($name); ?>" class="hover_thumb">
+													<i class="fa <?php echo $LBS_Image_View_Icon; ?> fa-4x"></i>
+												</a>
+											</p>
+										</div>
 
-								</div>
-								<div class="enigma_home_portfolio_caption">
-									<h3><?php echo ucwords($name); ?></h3>
-								</div>
-							</div>
-						</div>
-
-						<!-- Modal -->
-						<div class="modal fade" id="<?php echo $post_id."-".$i; ?>" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
-							<div class="modal-dialog">
-								<div class="modal-content">
-									<div class="modal-header">
-										<h4 class="modal-title" id="myModalLabel"><?php echo ucwords($name); ?></h4>
 									</div>
-									<div class="modal-body">
-										<img src="<?php echo $url; ?>" class="gall-img-responsive" alt="photo1 title">
-									</div>
-									<div class="modal-footer">
-										<button type="button" class="btn btn-default" data-dismiss="modal"><?php _e("Close", "weblizar_rpg"); ?></button>
-									</div>
+									<?php 
+									if($name)
+									{
+									?>
+										<div class="enigma_home_portfolio_caption">
+											<h3><?php echo ucwords($name); ?></h3>
+										</div>
+									<?php 
+									}
+									?>		
 								</div>
 							</div>
-						</div>
-						<?php
-						$i++;
-					}
-				?>
+							<?php if($LBS_Gallery_Layout=="col-md-4")
+							{
+								 if($i%3==0){
+								?>
+									</div>
+									<div class="row">
+									<?php
+								}
+							}
+							else{
+							 if($i%2==0){
+								?>
+									</div>
+									<div class="row">
+									<?php
+								}
+							}
+							$i++;
+						}
+					?>
+					</div>
+				</div>
 			</div>
 		<?php endwhile; ?>
    

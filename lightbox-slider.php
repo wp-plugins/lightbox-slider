@@ -1,7 +1,7 @@
 <?php
 /**
  * Plugin Name: Lightbox Slider
- * Version: 0.3
+ * Version: 0.4
  * Description: A Great Lightbox plugin to create and display various types of images galleries on WordPress blog.
  * Author: Weblizar
  * Author URI: http://www.weblizar.com
@@ -257,7 +257,7 @@ add_action('admin_menu' , 'LBS_SettingsPage');
 
 function LBS_SettingsPage() {
     add_submenu_page('edit.php?post_type=lightbox-slider', __('Settings', WEBLIZAR_LBS_TEXT_DOMAIN), __('Settings', WEBLIZAR_LBS_TEXT_DOMAIN), 'administrator', 'light-box-settings', 'lightbox_slider_settings_page_function');
-    //add_submenu_page('edit.php?post_type=lightbox-slider', 'Pro Features', 'Pro Features', 'administrator', 'get-image-gallery-pro-plugin', 'get_lightbox_slider_pro_page_function');
+    add_submenu_page('edit.php?post_type=lightbox-slider', 'Pro Features', 'Pro Features', 'administrator', 'get-image-gallery-pro-plugin', 'get_lightbox_slider_pro_page_function');
 }
 
 /**
@@ -265,6 +265,9 @@ function LBS_SettingsPage() {
  */
 function lightbox_slider_settings_page_function() {
     //css
+	wp_enqueue_script('dashboard');
+	wp_enqueue_script('jquery');
+	wp_enqueue_style('dashboard');
     wp_enqueue_style('wl-lbs-font-awesome-4', WEBLIZAR_LBS_PLUGIN_URL.'css/font-awesome-4.0.3/css/font-awesome.min.css');
     require_once("lightbox-slider-settings.php");
 }
@@ -277,8 +280,9 @@ function get_lightbox_slider_pro_page_function() {
     wp_enqueue_style('wl-lbs-font-awesome-4', WEBLIZAR_LBS_PLUGIN_URL.'css/font-awesome-4.0.3/css/font-awesome.min.css');
     wp_enqueue_style('wl-lbs-pricing-table-css', WEBLIZAR_LBS_PLUGIN_URL.'css/pricing-table.css');
     wp_enqueue_style('wl-lbs-pricing-table-responsive-css', WEBLIZAR_LBS_PLUGIN_URL.'css/pricing-table-responsive.css');
-    wp_enqueue_style('wl-lbs-boot-strap-responsive-min-2-3-css', WEBLIZAR_LBS_PLUGIN_URL.'css/bootstrap-responsive.min.2.3.css');
-}
+    wp_enqueue_style('wl-lbs-boot-strap-responsive-min-2-3-css', WEBLIZAR_LBS_PLUGIN_URL.'css/bootstrap.css');
+	require_once("get-lightbox-slider-pro.php");
+	}
 
 
 /**

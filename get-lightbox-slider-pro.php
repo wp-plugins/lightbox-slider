@@ -79,7 +79,7 @@ font-size: 36px;
 padding-top: 10px;
 padding-bottom: 10px;">Lightbox Slider Pro And Free Comparison Table</h2>
  </div>
-<div class="row-fluid pricing-table pricing-three-column" style="margin-top: 10px;">
+<div class="row pricing-table pricing-three-column" style="margin-top: 10px;">
 	<div class="col-md-4">
 		<div class=" plan ap">
 			<div class="plan-name">
@@ -100,6 +100,14 @@ padding-bottom: 10px;">Lightbox Slider Pro And Free Comparison Table</h2>
 				<li class="plan-feature">Number of Hover Color</li>
 				<li class="plan-feature">Number of Font Style</li>
 				<li class="plan-feature">Number of Light Styles</li>
+				 <li class="plan-feature">Drag and Drop image Position</li>
+			  <li class="plan-feature">Multiple Image uploader</li>
+			  <li class="plan-feature">Shortcode Button on post or page</li>
+			  <li class="plan-feature">Unique settings for each gallery</li>
+			  <li class="plan-feature">Hide/Show gallery Title and label</li>
+			  <li class="plan-feature">Font icon Customization</li>
+			  <li class="plan-feature">Google Fonts</li>
+			  <li class="plan-feature">Isotope Effects</li>
 			</ul>
 		</div>
 	</div>
@@ -123,6 +131,14 @@ padding-bottom: 10px;">Lightbox Slider Pro And Free Comparison Table</h2>
 				<li class="plan-feature">2</li>
 				<li class="plan-feature">10+</li>
 				<li class="plan-feature">1</li>
+				<li class="plan-feature"><i class="fa fa-times fa-1x"></i></li>
+                  	<li class="plan-feature"><i class="fa fa-times fa-1x"></i></li>
+                  	<li class="plan-feature"><i class="fa fa-times fa-1x"></i></li>
+                  	<li class="plan-feature"><i class="fa fa-times fa-1x"></i></li>
+                  	<li class="plan-feature"><i class="fa fa-times fa-1x"></i></li>
+                  <li class="plan-feature"><i class="fa fa-times fa-1x"></i></li>
+				  <li class="plan-feature"><i class="fa fa-times fa-1x"></i></li>
+                  <li class="plan-feature"><i class="fa fa-times fa-1x"></i></li>
 				<li class="plan-feature">
 					<a href="#" class="button button-primary button-hero" style="font-size: large; font-weight: bolder;"><i class="fa fa-thumbs-up"></i> Enjoy Plugin</a>
 				</li>
@@ -150,6 +166,14 @@ padding-bottom: 10px;">Lightbox Slider Pro And Free Comparison Table</h2>
 				<li class="plan-feature">Unlimited</li>
 				<li class="plan-feature">500+</li>
 				<li class="plan-feature">8</li>
+				  <li class="plan-feature"><i class="fa fa-check fa-1x"></i></li>
+                  <li class="plan-feature"><i class="fa fa-check fa-1x"></i></li>
+                  <li class="plan-feature"><i class="fa fa-check fa-1x"></i></li>
+                  <li class="plan-feature"><i class="fa fa-check fa-1x"></i></li>
+                  <li class="plan-feature"><i class="fa fa-check fa-1x"></i></li>
+                  <li class="plan-feature"><i class="fa fa-check fa-1x"></i></li>
+			<li class="plan-feature"><i class="fa fa-check fa-1x"></i></li>
+                  <li class="plan-feature"><i class="fa fa-check fa-1x"></i></li>
 				<li class="plan-feature">
 					<a class="btn btn-primary btn-lg" href="http://weblizar.com/lightbox-slider-pro/" target="_new" style="font-size: large; font-weight: bolder;"><i class="fa fa-check-circle"></i> Demo</a>
 					<a class="btn btn-danger btn-lg" href="http://weblizar.com/lightbox-slider-pro/" target="_new" style="font-size: large; font-weight: bolder;"><i class="fa fa-shopping-cart"></i> Buy</a>

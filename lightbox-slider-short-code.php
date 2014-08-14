@@ -17,6 +17,7 @@ function light_box_slider_short_code() {
         $LBS_Hover_Color_Opacity = 1;
         $LBS_Font_Style          = $LBS_Settings['LBS_Font_Style'];
         $LBS_Image_View_Icon     = $LBS_Settings['LBS_Image_View_Icon'];
+		$LBS_Gallery_Title       = $LBS_Settings['LBS_Gallery_Title'];
     } else {
 		$LBS_Hover_Color_Opacity = 1;
 		$LBS_Hover_Animation     = "flow";
@@ -24,6 +25,7 @@ function light_box_slider_short_code() {
         $LBS_Hover_Color         = "#74C9BE";
         $LBS_Font_Style          = "Arial";
         $LBS_Image_View_Icon     = "fa-picture-o";
+		$LBS_Gallery_Title = "yes";
     }
 	if(!function_exists('lbs_hex2rgb')) {
 		function lbs_hex2rgb($hex) {
@@ -130,12 +132,12 @@ function light_box_slider_short_code() {
 			<!--get the post id-->
 			<?php $post_id = get_the_ID(); ?>
 			<div style="display: block; overflow:hidden; padding-bottom:20px;">
-				
+					<?php if($LBS_Gallery_Title==""){ $LBS_Gallery_Title == "yes"; } if($LBS_Gallery_Title == "yes") { ?>
 				<!-- lbs gallery title-->
 				<div style="font-weight: bolder; padding-bottom:20px; border-bottom:2px solid #cccccc; margin-bottom: 20px;">
 					<?php echo ucwords(get_the_title($post_id)); ?>
 				</div>
-				
+				<?php } ?>
 				<!--lbs gallery photos-->
 				<div>
 					<div class="row">

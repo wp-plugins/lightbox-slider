@@ -9,12 +9,14 @@
         $LBS_Hover_Color         = $LBS_Settings['LBS_Hover_Color'];
         $LBS_Font_Style          = $LBS_Settings['LBS_Font_Style'];
         $LBS_Image_View_Icon     = $LBS_Settings['LBS_Image_View_Icon'];
+		$LBS_Gallery_Title       = $LBS_Settings['LBS_Gallery_Title'];
     } else {
         $LBS_Hover_Animation     = "flow";
         $LBS_Gallery_Layout      = "col-md-6";
         $LBS_Hover_Color         = "#74C9BE";
         $LBS_Font_Style          = "Arial";
         $LBS_Image_View_Icon     = "fa-picture-o";
+		$LBS_Gallery_Title		 = "yes";	
     }
 ?>
 
@@ -48,7 +50,15 @@
                     <p class="description"><?php _e("Choose a column layout for image gallery.", WEBLIZAR_LBS_TEXT_DOMAIN); ?></p>
                 </td>
             </tr>
+			<tr>
+                <th scope="row"><label><?php _e("Display Gallery Title", WEBLIZAR_LBS_TEXT_DOMAIN); ?></label></th>
+                <td>
+                    <input type="radio" name="lbs-gallery-title" id="lbs-gallery-title" value="yes" <?php if($LBS_Gallery_Title == 'yes' ) { echo "checked"; } ?>> Yes
+                    <input type="radio" name="lbs-gallery-title" id="lbs-gallery-title" value="no" <?php if($LBS_Gallery_Title == 'no' ) { echo "checked"; } ?>> No
 
+                    <p class="description"><?php _e("Select yes if you want show gallery title .", WEBLIZAR_LBS_TEXT_DOMAIN); ?></p>
+                </td>
+            </tr>
             <tr>
                 <th scope="row"><label><?php _e("Hover Color", WEBLIZAR_LBS_TEXT_DOMAIN); ?></label></th>
                 <td>
@@ -139,6 +149,7 @@ if(isset($_POST['wl_lbs_action'])) {
         $LBS_Hover_Color         = $_POST['wl-hover-color'];
         $LBS_Font_Style          = $_POST['wl-font-style'];
         $LBS_Image_View_Icon     = $_POST['wl-image-view-icon'];
+		$LBS_Gallery_Title		= $_POST['lbs-gallery-title'];
 
         $SettingsArray = serialize( array(
             'LBS_Hover_Animation' => $LBS_Hover_Animation,
@@ -147,6 +158,7 @@ if(isset($_POST['wl_lbs_action'])) {
             'LBS_Hover_Color_Opacity' => 1,
             'LBS_Font_Style' => $LBS_Font_Style,
             'LBS_Image_View_Icon' => $LBS_Image_View_Icon,
+			'LBS_Gallery_Title' => $LBS_Gallery_Title
         ) );
 
         update_option("WL_LBS_Settings", $SettingsArray);

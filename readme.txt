@@ -36,7 +36,7 @@ Using **[LBS]** shortcode, you can publish lightbox slider image photo gallery i
 **Upgrade To Pro:** [Lightbox Slider Pro](http://weblizar.com/lightbox-slider-pro/)
 
 
-### Responsive Photo Gallery Pro Features
+### Lightbox Slider Pro Features
 
 * Responsive Gallery
 * Admin Gallery Dashboard

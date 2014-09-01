@@ -207,7 +207,7 @@ function light_box_slider_short_code() {
 				</div>
 			</div>
 		<?php endwhile; ?>
-   
+    </div>
     <?php wp_reset_query(); ?>
     <?php
 	return ob_get_clean();

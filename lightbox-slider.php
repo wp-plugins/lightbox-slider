@@ -1,7 +1,7 @@
 <?php
 /**
  * Plugin Name: Lightbox Slider
- * Version: 0.7
+ * Version: 0.8
  * Description: A Great Lightbox plugin to create and display various types of images galleries on WordPress blog.
  * Author: Weblizar
  * Author URI: http://www.weblizar.com
@@ -93,8 +93,8 @@ function Lightbox_Slider_init() {
     add_meta_box('Lightbox_Slider_meta', __('Add New Images', WEBLIZAR_LBS_TEXT_DOMAIN), 'lightbox_slider_function', 'lightbox-slider', 'normal', 'high');
     
 	add_action('save_post','light_box_meta_save');
-	add_meta_box(__('Plugin Shortcode', WEBLIZAR_RPG_TEXT_DOMAIN) , __('Plugin Shortcode', WEBLIZAR_LBS_TEXT_DOMAIN), 'lbs_plugin_shortcode', 'lightbox-slider', 'side', 'low');
-	add_meta_box(__('Rate us on WordPress', WEBLIZAR_RPG_TEXT_DOMAIN) , __('Rate us on WordPress', WEBLIZAR_LBS_TEXT_DOMAIN), 'lbs_rate_us_function', 'lightbox-slider', 'side', 'low');
+	add_meta_box(__('Plugin Shortcode', WEBLIZAR_LBS_TEXT_DOMAIN) , __('Plugin Shortcode', WEBLIZAR_LBS_TEXT_DOMAIN), 'lbs_plugin_shortcode', 'lightbox-slider', 'side', 'low');
+	add_meta_box(__('Rate us on WordPress', WEBLIZAR_LBS_TEXT_DOMAIN) , __('Rate us on WordPress', WEBLIZAR_LBS_TEXT_DOMAIN), 'lbs_rate_us_function', 'lightbox-slider', 'side', 'low');
     
 	add_meta_box(__('Upgrade To Pro Version', WEBLIZAR_LBS_TEXT_DOMAIN) , __('Upgrade To Pro Version', WEBLIZAR_LBS_TEXT_DOMAIN), 'lbs_upgrade_to_pro_function', 'lightbox-slider', 'side', 'low');
     add_meta_box(__('Pro Features', WEBLIZAR_LBS_TEXT_DOMAIN) , __('Pro Features', WEBLIZAR_LBS_TEXT_DOMAIN), 'lbs_pro_features', 'lightbox-slider', 'side', 'low');

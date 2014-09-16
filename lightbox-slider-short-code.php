@@ -134,7 +134,7 @@ function light_box_slider_short_code() {
 			<div style="display: block; overflow:hidden; padding-bottom:20px;">
 					<?php if($LBS_Gallery_Title==""){ $LBS_Gallery_Title == "yes"; } if($LBS_Gallery_Title == "yes") { ?>
 				<!-- lbs gallery title-->
-				<div style="font-weight: bolder; padding-bottom:20px; border-bottom:2px solid #cccccc; margin-bottom: 20px;">
+				<div style="font-weight: bolder;padding-bottom:20px;border-bottom:2px solid #f2f2f2;text-align:center ;margin-bottom: 20px;font-size:16px;">
 					<?php echo ucwords(get_the_title($post_id)); ?>
 				</div>
 				<?php } ?>

@@ -1,7 +1,7 @@
 <?php
 /**
  * Plugin Name: Lightbox Slider
- * Version: 0.8
+ * Version: 0.9
  * Description: A Great Lightbox plugin to create and display various types of images galleries on WordPress blog.
  * Author: Weblizar
  * Author URI: http://www.weblizar.com
@@ -388,3 +388,4 @@ function get_lightbox_slider_pro_page_function() {
  * Lightbox Slider Short Code [LBS]
  */
 require_once("lightbox-slider-short-code.php");
+?>

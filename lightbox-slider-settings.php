@@ -84,22 +84,22 @@
                     <select  name="wl-font-style" class="standard-dropdown" id="wl-font-style">
                         <optgroup label="Default Fonts">
                             <option value="Arial"           <?php if($LBS_Font_Style == 'Arial' ) { echo "selected"; } ?>>Arial</option>
-                            <option value="_arial_black"    <?php if($LBS_Font_Style == '_arial_black' ) { echo "selected"; } ?>>Arial Black</option>
+                            <option value="Arial Black"    <?php if($LBS_Font_Style == 'Arial Black' ) { echo "selected"; } ?>>Arial Black</option>
                             <option value="Courier New"     <?php if($LBS_Font_Style == 'Courier New' ) { echo "selected"; } ?>>Courier New</option>
-                            <option value="georgia"         <?php if($LBS_Font_Style == 'georgia' ) { echo "selected"; } ?>>Georgia</option>
-                            <option value="grande"          <?php if($LBS_Font_Style == 'grande' ) { echo "selected"; } ?>>Grande</option>
-                            <option value="_helvetica_neue" <?php if($LBS_Font_Style == '_helvetica_neue' ) { echo "selected"; } ?>>Helvetica Neue</option>
-                            <option value="_impact"         <?php if($LBS_Font_Style == '_impact' ) { echo "selected"; } ?>>Impact</option>
-                            <option value="_lucida"         <?php if($LBS_Font_Style == '_lucida' ) { echo "selected"; } ?>>Lucida</option>
-                            <option value="_lucida"         <?php if($LBS_Font_Style == '_lucida' ) { echo "selected"; } ?>>Lucida Grande</option>
+                            <option value="Georgia"         <?php if($LBS_Font_Style == 'Georgia' ) { echo "selected"; } ?>>Georgia</option>
+                            <option value="Grande"          <?php if($LBS_Font_Style == 'Grande' ) { echo "selected"; } ?>>Grande</option>
+                            <option value="Helvetica" <?php if($LBS_Font_Style == 'Helvetica' ) { echo "selected"; } ?>>Helvetica Neue</option>
+                            <option value="Impact"         <?php if($LBS_Font_Style == 'Impact' ) { echo "selected"; } ?>>Impact</option>
+                            <option value="Lucida"         <?php if($LBS_Font_Style == 'Lucida' ) { echo "selected"; } ?>>Lucida</option>
+                            <option value="Lucida Grande"         <?php if($LBS_Font_Style == 'Lucida Grande' ) { echo "selected"; } ?>>Lucida Grande</option>
                             <option value="_OpenSansBold"   <?php if($LBS_Font_Style == '_OpenSansBold' ) { echo "selected"; } ?>>OpenSansBold</option>
-                            <option value="_palatino"       <?php if($LBS_Font_Style == '_palatino' ) { echo "selected"; } ?>>Palatino</option>
-                            <option value="_sans"           <?php if($LBS_Font_Style == '_sans' ) { echo "selected"; } ?>>Sans</option>
-                            <option value="_sans"           <?php if($LBS_Font_Style == '_sans' ) { echo "selected"; } ?>>Sans-Serif</option>
-                            <option value="_tahoma"         <?php if($LBS_Font_Style == '_tahoma' ) { echo "selected"; } ?>>Tahoma</option>
-                            <option value="_times"          <?php if($LBS_Font_Style == '_times' ) { echo "selected"; } ?>>Times New Roman</option>
-                            <option value="_trebuchet"      <?php if($LBS_Font_Style == '_trebuchet' ) { echo "selected"; } ?>>Trebuchet</option>
-                            <option value="_verdana"        <?php if($LBS_Font_Style == '_verdana' ) { echo "selected"; } ?>>Verdana</option>
+                            <option value="Palatino Linotype"       <?php if($LBS_Font_Style == 'Palatino Linotype' ) { echo "selected"; } ?>>Palatino</option>
+                            <option value="Sans"           <?php if($LBS_Font_Style == 'Sans' ) { echo "selected"; } ?>>Sans</option>
+                            <option value="sans-serif"           <?php if($LBS_Font_Style == 'sans-serif' ) { echo "selected"; } ?>>Sans-Serif</option>
+                            <option value="Tahoma"         <?php if($LBS_Font_Style == 'Tahoma' ) { echo "selected"; } ?>>Tahoma</option>
+                            <option value="Times New Roman"          <?php if($LBS_Font_Style == 'Times New Roman' ) { echo "selected"; } ?>>Times New Roman</option>
+                            <option value="Trebuchet"      <?php if($LBS_Font_Style == 'Trebuchet' ) { echo "selected"; } ?>>Trebuchet</option>
+                            <option value="Verdana"        <?php if($LBS_Font_Style == 'Verdana' ) { echo "selected"; } ?>>Verdana</option>
                         </optgroup>
                     </select>
                     <p class="description"><strong><?php _e("Choose a caption font style.", WEBLIZAR_LBS_TEXT_DOMAIN); ?></strong> (Upgrade to pro for get 500+ Google fonts in plugin, check <a href="http://weblizar.com/lightbox-slider-pro/" target="_new">demo</a> )</p>

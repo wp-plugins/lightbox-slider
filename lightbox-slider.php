@@ -1,7 +1,7 @@
 <?php
 /**
  * Plugin Name: Lightbox Slider
- * Version: 1.2
+ * Version: 1.3
  * Description: A Great Lightbox plugin to create and display various types of images galleries on WordPress blog.
  * Author: Weblizar
  * Author URI: http://www.weblizar.com
@@ -292,7 +292,7 @@ function light_box_meta_save() {
             $ImagesArray = array();
             if($TotalImages) {
                 for($i=1; $i <= $TotalImages; $i++) {
-                    $name = $_POST['image_label'.$i];
+                    $name = stripslashes($_POST['image_label'.$i]);
                     $url = $_POST['img_url'.$i];
                     $ImagesArray[] = array(
                         'lbs_image_label' => $name,

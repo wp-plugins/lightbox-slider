@@ -74,6 +74,7 @@
                 <td>
                     <input type="radio" name="wl-image-view-icon" id="wl-image-view-icon" value="fa-picture-o"  <?php if($LBS_Image_View_Icon == 'fa-picture-o' ) { echo "checked"; } ?>> <i class="fa fa-picture-o fa-2x"></i>
                     <input type="radio" name="wl-image-view-icon" id="wl-image-view-icon" value="fa-camera" <?php if($LBS_Image_View_Icon == 'fa-camera' ) { echo "checked"; } ?>> <i class="fa fa-camera fa-2x"></i>
+                    <input type="radio" name="wl-image-view-icon" id="wl-image-view-icon" value="fa-camera-retro" <?php if($LBS_Image_View_Icon == 'fa-camera-retro' ) { echo "checked"; } ?>> <i class="fa fa-camera-retro fa-2x"></i>
                     <p class="description"><strong><?php _e("Choose image view icon.", WEBLIZAR_LBS_TEXT_DOMAIN); ?></strong> (Upgrade to pro for get Unlimited Font Awesome Icon in plugin, check <a href="http://weblizar.com/lightbox-slider-pro/" target="_new">demo</a> )</p>
                 </td>
             </tr>

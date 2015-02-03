@@ -3,9 +3,14 @@
  * Lightbox Slider Shortcode
  */
 add_shortcode( 'LBS', 'light_box_slider_short_code' );
-function light_box_slider_short_code() {
+function light_box_slider_short_code($Id) {
 	ob_start();
-
+	if(!isset($Id['id'])) {
+	$Id['id'] = "";
+	}
+	else{
+		$lbs_id = $Id['id'];
+	}
     /**
      * Load Lightbox Slider Settings
      */
@@ -125,7 +130,7 @@ function light_box_slider_short_code() {
     $IG_CPT_Name = "lightbox-slider";
     $IG_Taxonomy_Name = "category";
 	$all_posts = wp_count_posts( 'lightbox-slider')->publish;
-    $AllGalleries = array( 'post_type' => $IG_CPT_Name, 'orderby' => 'ASC','posts_per_page' =>$all_posts);
+    $AllGalleries = array( 'p' => $Id['id'], 'post_type' => $IG_CPT_Name, 'orderby' => 'ASC','posts_per_page' =>$all_posts);
     $loop = new WP_Query( $AllGalleries );
     ?>
     <div id="gallery1" class="gal-container">

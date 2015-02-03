@@ -1,7 +1,7 @@
 <?php
 /**
  * Plugin Name: Lightbox Slider
- * Version: 1.4
+ * Version: 1.5
  * Description: A Great Lightbox plugin to create and display various types of images galleries on WordPress blog.
  * Author: Weblizar
  * Author URI: http://www.weblizar.com
@@ -111,7 +111,7 @@ plugin shortcode
 function lbs_plugin_shortcode(){
 ?>
 <p>Use below shortcode in any Page/Post to publish your Lightbox Slider</p>
-		<input readonly="readonly" type="text" value="<?php echo "[LBS]"; ?>"> 
+		<input readonly="readonly" type="text" value="<?php echo "[LBS id=".get_the_ID()."]"; ?>"> 
 <?php
 } 
 

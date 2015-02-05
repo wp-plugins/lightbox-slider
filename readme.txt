@@ -13,7 +13,7 @@ Lightbox Slider plugin is allow you to add unlimited images to gallery with ligh
 == Description ==
 Lightbox Slider is based on bootstrap framework. Allow to add and create unlimited images galleries on your sites. Lightbox is provide fade animation, light box image preview and two gallery layout with various fonts. It's also provide isotope effect to adjust your image size according to screen resolution.
 
-Using **[LBS]** shortcode, you can publish lightbox slider image photo gallery into any Page or Post on your WordPress sites.
+Using **[LBS id=xx]** shortcode, you can publish lightbox slider image photo gallery into any Page or Post on your WordPress sites.
 
 **Features**
 
@@ -74,7 +74,7 @@ Using **[LBS]** shortcode, you can publish lightbox slider image photo gallery i
 * Multilingual Translation Ready
 * And many more..
 
-### See All lightbox Demo. These 8 types of lightbox are availabe in pro version
+### See All lightbox Demo. These 8 types of lightbox are available in pro version
 
 * Nivo Box [Demo](http://demo.weblizar.com/lightbox-slider-pro-demo/nivo-box-gallery/)
 * Photo Box [Demo](http://demo.weblizar.com/lightbox-slider-pro-demo/photo-box-gallery/)
@@ -85,20 +85,20 @@ Using **[LBS]** shortcode, you can publish lightbox slider image photo gallery i
 * Ion Box [Demo](http://demo.weblizar.com/lightbox-slider-pro-demo/ion-box-gallery/)
 * Fancy Box [Demo](http://demo.weblizar.com/lightbox-slider-pro-demo/fancy-box-gallery/)
 
-### Lighbox Slier Pro: [Admin Demo](http://demo.weblizar.com/lightbox-slider-pro-admin-demo/wp-admin/)
+Lighbox Slider Pro: [Admin Demo](http://demo.weblizar.com/lightbox-slider-pro-admin-demo/wp-admin/)
 
 **Username:** userdemo
 
 **Password:** userdemo
 
-### Upgrade To Pro: [Lightbox Slider Pro](http://weblizar.com/lightbox-slider-pro/)
+Upgrade To Pro: [Lightbox Slider Pro](http://weblizar.com/lightbox-slider-pro/)
 
 
 == Installation ==
 
 1. Upload the entire **lightbox-slider** folder to the **/wp-content/plugins/** directory.
 2. Activate the plugin through the **Plugins** menu in WordPress admin.
-3. Create new gallery, Use **[LBS]** shortcode to publish image gallery on any page or post.
+3. Create new gallery, Use **[LBS id=xx]** shortcode to publish image gallery on any page or post.
 
 == Screenshots ==
 

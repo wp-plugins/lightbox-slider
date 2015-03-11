@@ -141,7 +141,7 @@ function light_box_slider_short_code($Id) {
 					<?php if($LBS_Gallery_Title==""){ $LBS_Gallery_Title == "yes"; } if($LBS_Gallery_Title == "yes") { ?>
 				<!-- lbs gallery title-->
 				<div style="font-weight: bolder;padding-bottom:20px;border-bottom:2px solid #f2f2f2;text-align:center ;margin-bottom: 20px;font-size:16px;">
-					<?php echo ucwords(get_the_title($post_id)); ?>
+					<?php echo get_the_title($post_id); ?>
 				</div>
 				<?php } ?>
 				<!--lbs gallery photos-->
@@ -170,7 +170,7 @@ function light_box_slider_short_code($Id) {
 
 										<div class="b-wrapper">
 											<p class="b-scale b-animate b-delay03">
-												<a href="<?php echo $url; ?>" data-lightbox="image" title="<?php echo ucwords($name); ?>" class="hover_thumb">
+												<a href="<?php echo $url; ?>" data-lightbox="image" title="<?php echo $name; ?>" class="hover_thumb">
 													<i class="fa <?php echo $LBS_Image_View_Icon; ?> fa-4x"></i>
 												</a>
 											</p>
@@ -182,7 +182,7 @@ function light_box_slider_short_code($Id) {
 									{
 									?>
 										<div class="enigma_home_portfolio_caption">
-											<h3><?php echo ucwords($name); ?></h3>
+											<h3><?php echo $name; ?></h3>
 										</div>
 									<?php 
 									}

@@ -1,9 +1,9 @@
 <div class="row-fluid pricing-table pricing-three-column" style="margin-top: 10px;">
 
 	<div class="purchase_btn_div" style="margin-top:20px;text-align: center;">
-	  <a  style= "margin-right:10px;" href="http://weblizar.com/lightbox-slider-pro/" target="_new" class="btn btn-primary btn-lg">View Demo</a>
-	  <a style= "margin-right:10px;" href="http://weblizar.com/lightbox-slider-pro/" target="_new" class="btn btn-success btn-lg">Try Before Buy</a>
-	  <a href="http://weblizar.com/lightbox-slider-pro/" target="_new" class="btn btn-danger btn-lg">Upgrade To Pro</a>
+	  <a  style= "margin-right:10px;" href="http://demo.weblizar.com/lightbox-slider-pro-demo/" target="_new" class="btn btn-primary btn-lg">View Demo</a>
+	  <a style= "margin-right:10px;" href="http://demo.weblizar.com/lightbox-slider-pro-admin-demo/" target="_new" class="btn btn-success btn-lg">Try Before Buy</a>
+	  <a href="https://weblizar.com/plugins/lightbox-slider-pro/" target="_new" class="btn btn-danger btn-lg">Upgrade To Pro</a>
 		
 	</div>
 	
@@ -67,9 +67,9 @@ background: #f7f7f7;padding:10px" class="img-responsive" src="http://weblizar.co
 <div class="plan-name" style="padding-top:40px; text-align: center;float:left;width:100%">
  
 <div class="purchase_btn_div" style="margin-top:20px;text-align: center;">
-	  <a  style= "margin-right:10px;" href="http://weblizar.com/lightbox-slider-pro/" target="_new" class="btn btn-primary btn-lg">View Demo</a>
-	  <a style= "margin-right:10px;" href="http://weblizar.com/lightbox-slider-pro/" target="_new" class="btn btn-success btn-lg">Try Before Buy</a>
-	  <a href="http://weblizar.com/lightbox-slider-pro/" target="_new" class="btn btn-danger btn-lg">Upgrade To Pro</a>
+	  <a  style= "margin-right:10px;" href="https://weblizar.com/plugins/lightbox-slider-pro/" target="_new" class="btn btn-primary btn-lg">View Demo</a>
+	  <a style= "margin-right:10px;" href="https://weblizar.com/plugins/lightbox-slider-pro/" target="_new" class="btn btn-success btn-lg">Try Before Buy</a>
+	  <a href="https://weblizar.com/plugins/lightbox-slider-pro/" target="_new" class="btn btn-danger btn-lg">Upgrade To Pro</a>
 		
 	</div>
 	</div>
@@ -175,8 +175,8 @@ padding-bottom: 10px;">Lightbox Slider Pro And Free Comparison Table</h2>
 			<li class="plan-feature"><i class="fa fa-check fa-1x"></i></li>
                   <li class="plan-feature"><i class="fa fa-check fa-1x"></i></li>
 				<li class="plan-feature">
-					<a class="btn btn-primary btn-lg" href="http://weblizar.com/lightbox-slider-pro/" target="_new" style="font-size: large; font-weight: bolder;"><i class="fa fa-check-circle"></i> Demo</a>
-					<a class="btn btn-danger btn-lg" href="http://weblizar.com/lightbox-slider-pro/" target="_new" style="font-size: large; font-weight: bolder;"><i class="fa fa-shopping-cart"></i> Buy</a>
+					<a class="btn btn-primary btn-lg" href="https://weblizar.com/plugins/lightbox-slider-pro/" target="_new" style="font-size: large; font-weight: bolder;"><i class="fa fa-check-circle"></i> Demo</a>
+					<a class="btn btn-danger btn-lg" href="https://weblizar.com/plugins/lightbox-slider-pro/" target="_new" style="font-size: large; font-weight: bolder;"><i class="fa fa-shopping-cart"></i> Buy</a>
 				</li>
 			</ul>
 		</div>

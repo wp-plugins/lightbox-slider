@@ -132,12 +132,12 @@
 padding-top: 20px;">Lightbox Slider Pro</h2>
 </div>
 <div class="purchase_btn_div" style="margin-top:20px;">
-  <a  style= "margin-right:10px;" href="http://weblizar.com/lightbox-slider-pro/" target="_new" class="button button-hero">View Demo</a>
-	  <a style= "margin-right:10px;" href="http://weblizar.com/lightbox-slider-pro/" target="_new" class="button button-primary button-hero">Try Before Buy</a>
+  <a  style= "margin-right:10px;" href="https://weblizar.com/plugins/lightbox-slider-pro/" target="_new" class="button button-hero">View Demo</a>
+	  <a style= "margin-right:10px;" href="https://weblizar.com/plugins/lightbox-slider-pro/" target="_new" class="button button-primary button-hero">Try Before Buy</a>
 	  <a style="background-color: #d9534f;
-border-color: #d43f3a;" href="http://weblizar.com/lightbox-slider-pro/" target="_new" class="button button-primary button-hero">Upgrade To Pro</a>
+border-color: #d43f3a;" href="https://weblizar.com/plugins/lightbox-slider-pro/" target="_new" class="button button-primary button-hero">Upgrade To Pro</a>
 	</div>
-	<a href="http://weblizar.com/lightbox-slider-pro/" target="_new"><img style="margin-top:20px;box-shadow: 0 0 12px 3px #b0b2ab;" src="<?php echo WEBLIZAR_LBS_PLUGIN_URL.'images/lightbox-images.jpg'; ?>" /></a>
+	<a href="https://weblizar.com/plugins/lightbox-slider-pro/" target="_new"><img style="margin-top:20px;box-shadow: 0 0 12px 3px #b0b2ab;" src="<?php echo WEBLIZAR_LBS_PLUGIN_URL.'images/lightbox-images.jpg'; ?>" /></a>
 	
 	
 	

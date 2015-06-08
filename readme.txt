@@ -3,8 +3,8 @@ Contributors: weblizar
 Donate link: http://weblizar.com/lightbox-slider-pro/
 Tags: responsive gallery, add album, add gallery, add pictures, album, gallery, gallery image, image, multiple pictures, photo, photo album, photo gallery, upload images, website gallery, albums, best gallery plugin, best portfolio plugin, flash, gallery album, gallery bank, gallery image, gallery plugin, grid gallery, image album, image slider, images, lightbox, responsive lightbox, lightbox images, responsive slider, responsive, lightbox gallery, slider, lightbox slider, image lightbox, photo lightbox, colorbox, photobox, popup, popup box, links, media, modal, photo albums, photo gallery, swipebox, pretty photo, Photo Slider, photos, picture, pictures, plugin, portfolio, portfolio gallery, portfolio wordpress plugin, Post, posts, responsive gallery, seo image, sidebar, slideshow, thumbnails, videos, website gallery, widget, wordpress gallery plugin, wordpress portfolio plugin, wp gallery, wordpress lightbox, wordpress slider, wp gallery plugin, pretty photo, multiple image, ,ultiple image uploader, windowbox, plugin, shortcode, multiple shortcode, Responsive Popup, shadowbox, simple popup, slideshow lightbox, slimbox, Style, style lightbox, thickbox, wordpress image lightbox,  Jquery lightbox, jquery popup, light box, , lightview, modal, on click popup, onclick popup, open image, optin popup, overlay, page, photo, pics, pop-up, modal, modal box,  full page popup, highslide, imag,  colorbox, custom popup, exit lightbox, fancybox, free,  slideshow manager, slideshow plugin, sortable portfolio, thumbnail, thumbnails, thumbs, view images, visual items, web designer, website gallery, widget gallery, widget portfolio,  fullscreen slider, galeri, galerie, Galleria, galleries, gallery, gallery description, gallery lightbox, gallery shortcode, gallery slider, grid, image, image album, image description, image display,  screenshot, screenshots, shortcode, showcase, sidebar, Simple gallery, slide,  Photo Slider, photoalbum, photography, photo set,  Pretty Photo, prettyphoto, project, projects, 
 Requires at least: 3.5
-Tested up to: 4.2
-Stable tag: 1.8
+Tested up to: 4.2.2
+Stable tag: 1.9
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
@@ -34,7 +34,7 @@ Using **[LBS id=xx]** shortcode, you can publish lightbox slider image photo gal
 
 **Free Plugin Demo:** [Lightbox Slider Free](http://demo.weblizar.com/lightbox-slider-free-plugin)
 
-**Upgrade To Pro:** [Lightbox Slider Pro](http://weblizar.com/lightbox-slider-pro/)
+**Upgrade To Pro:** [Lightbox Slider Pro](https://weblizar.com/plugins/lightbox-slider-pro/)
 
 
 ### Lightbox Slider Pro Features
@@ -91,7 +91,7 @@ Lighbox Slider Pro: [Admin Demo](http://demo.weblizar.com/lightbox-slider-pro-ad
 
 **Password:** userdemo
 
-Upgrade To Pro: [Lightbox Slider Pro](http://weblizar.com/lightbox-slider-pro/)
+Upgrade To Pro: [Lightbox Slider Pro](https://weblizar.com/plugins/lightbox-slider-pro/)
 
 
 == Installation ==
@@ -111,6 +111,10 @@ Upgrade To Pro: [Lightbox Slider Pro](http://weblizar.com/lightbox-slider-pro/)
 == Changelog ==
 
 For more information, see [Weblizar](http://wwww.weblizar.com/).
+
+= 1.9 Version 08/06/2015 =
+* Compatible with WordPress 4.2.2 version
+* Small Updates in code
 
 = 1.8 Version 22/04/2015 =
 * Compatible with WordPress 4.2 version

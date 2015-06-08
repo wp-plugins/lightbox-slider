@@ -1,7 +1,7 @@
 <?php
 /**
  * Plugin Name: Lightbox Slider
- * Version: 1.8
+ * Version: 1.9
  * Description: A Great Lightbox plugin to create and display various types of images galleries on WordPress blog.
  * Author: Weblizar
  * Author URI: http://www.weblizar.com
@@ -249,7 +249,7 @@ function lbs_upgrade_to_pro_function(){
 	<a href="http://demo.weblizar.com/lightbox-slider-pro-admin-demo/" target="_new" class="button button-primary button-hero">View Admin Demo</a>
 </div>
 <div class="upgrade-to-pro" style="text-align:center;margin-bottom:10px;">
-	<a href="http://weblizar.com/lightbox-slider-pro/" target="_new" class="button button-primary button-hero">Upgarde To Pro</a>
+	<a href="https://weblizar.com/plugins/lightbox-slider-pro/" target="_new" class="button button-primary button-hero">Upgarde To Pro</a>
 </div>
 <?php
 }

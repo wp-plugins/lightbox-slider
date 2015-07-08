@@ -1,7 +1,7 @@
 <?php
 /**
  * Plugin Name: Lightbox Slider
- * Version: 1.9
+ * Version: 2.0
  * Description: A Great Lightbox plugin to create and display various types of images galleries on WordPress blog.
  * Author: Weblizar
  * Author URI: http://www.weblizar.com

@@ -4,7 +4,7 @@ Donate link: http://weblizar.com/lightbox-slider-pro/
 Tags: AJAX, colorbox, custom popup, display, exit lightbox, fancybox, free, full page popup, gallery, gallery lightbox, highslide, imag, image, image lightbox, image popup, images, img, Jquery lightbox, jquery popup, light box, lightbox, lightbox gallery, lightbox photo, lightbox pop, lightbox popup, Lightbox slider, lightbox youtube, lightview, modal, on click popup, onclick popup, open image, optin popup, overlay, page, photo, photos, picture, pics, plugin for gallery, pop-up, popup, popup box, popup image, popup images, popup lightbox, popup photo, popup video, popup window, popups, Post, prettyphoto lightbox, quick popup, responsive lightbox, Responsive Popup, shadowbox, simple popup, slideshow lightbox, slimbox, Style, style lightbox, thickbox, video, video lightbox, video popup, vimeo, wordpress image lightbox, wordpress lightbox, wordpress popup, wordpress video embed, wordpress youtube, WP Lightbox, youtube 
 Requires at least: 3.5
 Tested up to: 4.2.2
-Stable tag: 1.9
+Stable tag: 2.0
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
@@ -111,6 +111,9 @@ Upgrade To Pro: [Lightbox Slider Pro](https://weblizar.com/plugins/lightbox-slid
 == Changelog ==
 
 For more information, see [Weblizar](http://wwww.weblizar.com/).
+
+= 2.0 Version 08/07/2015 =
+* Small bug Fixed 
 
 = 1.9 Version 08/06/2015 =
 * Compatible with WordPress 4.2.2 version

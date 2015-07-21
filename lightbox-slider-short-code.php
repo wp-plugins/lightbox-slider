@@ -114,10 +114,10 @@ function light_box_slider_short_code($Id) {
 	font-family:<?php echo str_ireplace("+", " ", $LBS_Font_Style); ?>; // real name pass here
     
 	}
-	img {
+	.gal-container img {
 	max-width:1600px !important;
 	}
-	.row {
+	.gal-container .row {
 	margin-right: 0;
 	margin-left: 0;
 	}

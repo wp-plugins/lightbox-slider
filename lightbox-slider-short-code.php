@@ -121,6 +121,10 @@ function light_box_slider_short_code($Id) {
 	margin-right: 0;
 	margin-left: 0;
 	}
+	.lightbox .lb-image {
+   
+    max-width: 1600px !important;
+	}
     </style>
 
     <?php
